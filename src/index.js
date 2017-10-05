@@ -60,10 +60,7 @@ class ReactValiant360 extends React.Component {
             >
                 <div
                     className="valiant-vr"
-                    style={{
-                        height: this.props.height, 
-                        width: this.props.width
-                    }}
+                    style={{height: this.props.height}}
                     data-video-src={this.props.video}
                     id="valiant-video-element">
                 </div>

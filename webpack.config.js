@@ -10,7 +10,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: jsPath,
-        chunkFilename: jsPath,
         libraryTarget: 'commonjs2' 
     },
     plugins: [
