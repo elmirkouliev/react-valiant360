@@ -1,0 +1,37 @@
+{
+  "name": "react-valiant360",
+  "version": "0.0.1",
+  "description": "Reactified version of the Valiant 360 player",
+  "main": "build/main.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "jquery": "^3.2.1",
+    "react": "^15.5.4",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.19.0",
+    "three": "^0.87.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Elmir Kouliev",
+    "email": "elmir@kouliev.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
